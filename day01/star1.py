@@ -1,5 +1,7 @@
 import numpy as np
 
+# The heart of the federation...
+
 def get_calibration_value(line):
     numbers = [int(character) for character in line
                if character in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]]
