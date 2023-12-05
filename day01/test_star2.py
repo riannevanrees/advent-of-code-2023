@@ -55,6 +55,12 @@ def test_get_solution_line3():
     assert star2.get_solution_line("twone") == 21
 
 
+def test_get_solution_line4():
+    assert star2.get_solution_line("two934seven1") == 21
+    assert star2.get_solution_line("8nine37bpkmtghhnc2hnreightwohvs") == 82
+    assert star2.get_solution_line("596") == 56
+    assert star2.get_solution_line("q8d") == 88
+
+
 def test_get_solution_total():
     assert star2.get_solution_total(TESTDATA) == 281
-
